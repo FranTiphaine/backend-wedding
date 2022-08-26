@@ -4,7 +4,7 @@
             <p>Hola {{usuario}}! </p>
         </div>
         <div class="col-md-8 text-end">
-            <a class=" btn btn-danger alert-danger" href="/admin/login/logout">CERRAR SESIÓN</a>
+            <a class=" btn btn-danger alert-danger" href="/admin/login/logout">Cerrar Sesión</a>
         </div>
     </div>
     <div class="jumbotron">
@@ -41,10 +41,8 @@
                         <td>{{cuerpo}}</td>
                         <td>{{{imagen}}}</td>
                         <td class="col">
-                            <a href="/admin/novedades/editar/{{id}}" class="btn btn-sm btn-outline-dark"><i
-                                    class="fa fa-pencil"></i></a>
-                            <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-sm btn-outline-danger"><i
-                                    class="fa fa-trash"></i></a>
+                            <a href="/admin/novedades/editar/{{id}}" class="btn btn-sm btn-warning botonAgregar1">Editar</a>
+                            <a href="/admin/novedades/eliminar/{{id}}" class="btn btn-sm btn-danger botonAgregar1">Eliminar</a>
                         </td>
                     </tr>
                 {{/each}}
