@@ -1,0 +1,45 @@
+<div class="container-sm">
+    <div class="sesion">
+        <div class="col-md-4">
+            <p> {{usuario}} </p>
+        </div>
+        <div class="col-md-8 text-end">
+            <a class=" btn btn-danger alert-danger" href="/admin/login/logout">CERRAR SESIÓN</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" style="margin:1rem auto">
+    <div class="row">
+        <div class="col offset">
+            <h3 class="titulo">Agregar nueva novedad o tarea!</h3>
+            <form class="formulario" action="/admin/novedades/agregar" method="post"
+                  enctype="multipart/form-data">
+                <div class="mb-3 row-cols-6">
+                    <lavel class="col-form-label">Título</lavel>
+                    <input type="text" class="form-control" placeholder="Título..." name="titulo">
+                </div>
+                <div class="mb-3 row-cols-6">
+                    <lavel class="col-form-label">Subtítulo</lavel>
+                    <textarea type="text" class="form-control" placeholder="Ingrese un subtítulo..." name="subtitulo"></textarea>
+                </div>
+                <div class="mb-3 row-cals-6 ">
+                    <lavel class="col-form-label">Descripción</lavel>
+                    <textarea type="text" class="form-control" placeholder="Ingrese descripcion..."
+                              name="cuerpo"></textarea>
+                </div>
+                <div class="mb-3 row-cals-6 ">
+                    <input type="file" class="form-control" placeholder="Subir Imagen.." name="imagen" id="imagen"/>
+                </div>
+                <div class="container-sm">
+                    <button type="submit" class="btn btn-primary">Cargar</button>
+                </div>
+            </form>
+
+            {{#if error}}
+                <p>{{message}}</p>
+            {{/if}}
+        </div>
+    </div>
+</div>

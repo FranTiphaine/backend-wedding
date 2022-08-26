@@ -1,0 +1,242 @@
+/* Principales */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cormorant Garamond', sans-serif;
+}
+
+/* Contenedor general */
+
+.holder {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+
+/* Header */
+
+Header {
+    background-color: rgba(241, 241, 236, 0.92);
+    webkit-box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.tituloHeader {
+    height: 70%;
+    margin: 0 20px;
+    text-justify: newspaper;
+}
+
+.subtituloHeader {
+    height: 30%;;
+}
+
+/* Contenedor Body */
+
+.containerBody {
+    flex: 1;
+    padding: 1rem;
+}
+
+/* Footer */
+
+.container-footer {
+    background-color: rgba(241, 241, 236, 0.92);
+    webkit-box-shadow: 5px 0 0 10px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    padding: .5rem .8rem;
+    text-align: center;
+}
+
+/* ------ Otros ------ */
+
+/* Login */
+
+
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.containerLogin1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.tituloLogin {
+    text-align: center;
+}
+
+.containerLoginError {
+    width: 100%;
+    text-align: justify-all;
+    max-width: 260px;
+    padding-top: 1rem;
+}
+
+button {
+    border: 1px solid #1D9AF2;
+    border-radius: 4px;
+    padding: 15px 18px 30px 15px;
+    cursor: pointer;
+    font-size:14px;
+    box-shadow: 0 0 4px #999;
+    background-position: center;
+    transition: background 0.8s;
+    text-transform: uppercase;
+}
+button:hover {
+    background:#47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    color: white;
+}
+button:active {
+    background-color: #292d3e;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.botonAgregar {
+    margin-bottom: 1rem;
+}
+
+.novedades {
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.novedades h3 {
+    font-size: 2rem;
+    margin: 2rem;
+    border: solid black 0.2rem;
+    border-radius: 1rem;
+    background-color: rgba(241, 241, 236, 0.92);
+}
+
+.novedades p {
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Formularios */
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario div label {
+    min-width: 85px;
+    margin-left: 10px;
+}
+
+.formulario label {
+    height: 0;
+}
+
+.formulario input[type="submit"] {
+    background: #ccf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    border: 2px solid rgb(167, 15, 15);
+    color: blue;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 8rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #468ee6;
+}
+
+.formulario div input {
+    background: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid rgb(133, 29, 29);
+    font-size: 14px;
+    padding: 6px 10px;
+
+}
+
+.formulario textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+
+    margin-bottom: 10px;
+
+}
+
+/* Titulos */
+
+.titulo {
+    margin-bottom: 2rem;
+}
+
+/* Header link */
+
+h1 a {
+    text-decoration: none;
+}
+
+/* Boton cerrar sesion */
+
+.sesion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
