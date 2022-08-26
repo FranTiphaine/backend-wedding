@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec0ecde3-a353-4a8b-8336-3c6791636d78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/casamiento.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/casamiento.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/editar.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/editar.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/novedades.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/novedades.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="ec0ecde3-a353-4a8b-8336-3c6791636d78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +115,7 @@
       <workItem from="1660579795815" duration="1431000" />
       <workItem from="1661539926748" duration="1340000" />
       <workItem from="1661541516512" duration="2097000" />
-      <workItem from="1661547305032" duration="1650000" />
+      <workItem from="1661547305032" duration="2240000" />
     </task>
     <servers />
   </component>
