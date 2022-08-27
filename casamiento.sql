@@ -26,6 +26,7 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `novedades`
 --
+use heroku_35c1f78d56ac00a;
 
 CREATE TABLE `novedades` (
   `id` int(11) NOT NULL,
@@ -33,7 +34,7 @@ CREATE TABLE `novedades` (
   `subtitulo` varchar(250) DEFAULT NULL,
   `cuerpo` varchar(250) DEFAULT NULL,
   `img_id` varchar(250) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `novedades`
@@ -56,7 +57,7 @@ CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
   `usuario` varchar(250) NOT NULL,
   `password` varchar(250) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `usuarios`

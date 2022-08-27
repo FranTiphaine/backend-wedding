@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec0ecde3-a353-4a8b-8336-3c6791636d78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd/casamiento.sql" beforeDir="false" afterPath="$PROJECT_DIR$/casamiento.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casamiento.sql" beforeDir="false" afterPath="$PROJECT_DIR$/casamiento.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +123,8 @@
       <workItem from="1661549927832" duration="2363000" />
       <workItem from="1661555607218" duration="809000" />
       <workItem from="1661556471634" duration="376000" />
-      <workItem from="1661556859410" duration="4157000" />
+      <workItem from="1661556859410" duration="5994000" />
+      <workItem from="1661572915683" duration="454000" />
     </task>
     <servers />
   </component>
