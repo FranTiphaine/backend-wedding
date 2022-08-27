@@ -67,6 +67,7 @@ INSERT INTO `usuarios` (`id`, `usuario`, `password`) VALUES
 (1, 'franciscotiphaine@gmail.com', '347442e3e43213c09ff3f36f39cc856b'),
 (2, 'franciscotiphaine@hotmail.com', 'd2b5a601e2d39c856c8909c74ea31092'),
 (3, 'francis@gmail.com', 'f3b7e5d3eb074cde5b76e26bc0fb5776');
+(4,'flavia.ursino@gmail.com','flavia1234');
 
 --
 -- Índices para tablas volcadas
