@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec0ecde3-a353-4a8b-8336-3c6791636d78" name="Changes" comment="" />
+    <list default="true" id="ec0ecde3-a353-4a8b-8336-3c6791636d78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/layout.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +130,7 @@
       <workItem from="1661609482556" duration="1493000" />
       <workItem from="1661629837498" duration="2509000" />
       <workItem from="1661861990513" duration="38000" />
+      <workItem from="1661869624361" duration="805000" />
     </task>
     <servers />
   </component>
